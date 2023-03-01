@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: black;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -17,9 +17,9 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;    
+    padding: 30px 150px;  
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     z-index: 100;
 }
@@ -35,19 +35,22 @@ header {
     color: rgb(186, 159, 21);
     padding: 2px 15px;
     border-radius: 20px;
+    background-color: rgb(186, 159, 21);;
+    color: white;
     margin: 0 130px;
     font-weight: 600;
 }
 
 .navigation a:hover {
     color: white;
-    background-color: rgb(186, 159, 21);;
+    background-color: rgb(133, 113, 15);
     border-radius: 20px;
 }
 
 /* Efeito Parallax principal */
 
 .parallax {
+    position: 0px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -58,7 +61,8 @@ header {
 #text {
     position: absolute;
     font-size: 5em;
-    color: rgb(206, 206, 206);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px black;
     
 }
 
@@ -68,4 +72,11 @@ header {
     left: 0;
     width: 100%;
     pointer-events: none;
+}
+
+.sec {
+    margin-top: 0px;
+    position: relative;
+    background-color: black;
+    padding: 100px;
 }
