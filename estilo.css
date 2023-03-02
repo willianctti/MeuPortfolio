@@ -116,51 +116,53 @@ header {
     color: white;
     text-align: center;
     font-size: 2.5em;
+    padding-bottom: 30px;
 }
 
-div#cartas {
-    display: flex;
-    justify-content: center;
+
+h3 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 40%;
+}
+
+a.aCards {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.pCards {
+    font-size: 2.0em;
+    color: white;
+    
     text-align: center;
 }
 
-.face {
-    align-items: center;
+#allCards {
+    display: flex;
     justify-content: center;
-    width: 100px;
-    height: 100px;
-    background-color: rgb(255, 255, 255);
-    font-size: 1.5em;
-    
     
 }
 
-div#login {
-    display: flex;
+.cards {
+    padding-top: 30px;
+    margin: 20px;
+    width: 200px;
+    height: 350px;
+    background: linear-gradient(45deg, rgba(198, 198, 198, 0.455), #bcbcbc, #707070);
+    border-radius: 30px;
     justify-content: center;
-    position: absolute;
-    left: 20%;
-    transform-style: preserve-3d;
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+    box-shadow: 5px 5px 23px rgba(255, 255, 255, 0.448);
+    text-shadow: 1px 1px 0px black;
 }
 
-div#calc {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    left: 70%;
-    transform-style: preserve-3d;
-}
-
-div#netflix {
-    position: absolute;
-    left: 45%;
-    transform-style: preserve-3d;
-}
-
-#front {
-   position: absolute;
-
-}
-.flip {
-    transform: rotateY(180deg);
+.cards a {
+    color: rgba(151, 151, 17, 0.75);
+    text-shadow: 1px 1px 0px yellow;
 }
