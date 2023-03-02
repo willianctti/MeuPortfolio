@@ -182,7 +182,7 @@ a.aCards {
 div.cards:hover {
     width: 220px;
     height: 380px;
-    background: linear-gradient(45deg, rgba(246, 249, 69, 0.681), #ffea4b6d, #fcf5bc);
+    background: linear-gradient(45deg, rgb(253, 215, 48), #f8e86dc3, #f6eca7);
     animation: colors 7s ease infinite;
     background-size: 300%, 300%;
 }
@@ -191,4 +191,50 @@ div.cards:hover {
     font-weight: bold;
     color: rgba(236, 236, 15, 0.75);
     text-shadow: 1px 1px 1px rgb(232, 232, 227);
+}
+
+section#last h2 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    margin-bottom: 80px;
+    text-shadow: 2px 2px 0px yellow;
+}
+
+div#rs {
+    display: flex;
+    justify-content: center;
+}
+
+div#rs img {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    margin-top: 80px;
+    text-shadow: 1px 1px 0px yellow;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    padding-bottom: 90px;
+    color: white;
+    margin-top: 80px;
+    text-shadow: 1px 1px 0px yellow;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.5em;
+    color: gray;
+    text-decoration: overline;
 }
