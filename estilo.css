@@ -144,6 +144,7 @@ a.aCards {
 #allCards {
     display: flex;
     justify-content: center;
+    background-color: black;
     
 }
 
@@ -152,7 +153,9 @@ a.aCards {
     margin: 20px;
     width: 200px;
     height: 350px;
-    background: linear-gradient(45deg, rgba(198, 198, 198, 0.455), #bcbcbc, #707070);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.455), #ede892a9, #dcdcc18e);
+    animation: colors 7s ease infinite;
+    background-size: 300%, 300%;
     border-radius: 30px;
     justify-content: center;
     text-align: center;
@@ -160,9 +163,32 @@ a.aCards {
     color: white;
     box-shadow: 5px 5px 23px rgba(255, 255, 255, 0.448);
     text-shadow: 1px 1px 0px black;
+    transition: 0.3s ease;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    
+}
+
+div.cards:hover {
+    width: 220px;
+    height: 380px;
+    background: linear-gradient(45deg, rgba(246, 249, 69, 0.681), #ffea4b6d, #fcf5bc);
+    animation: colors 7s ease infinite;
+    background-size: 300%, 300%;
 }
 
 .cards a {
-    color: rgba(151, 151, 17, 0.75);
-    text-shadow: 1px 1px 0px yellow;
+    font-weight: bold;
+    color: rgba(236, 236, 15, 0.75);
+    text-shadow: 1px 1px 1px rgb(232, 232, 227);
 }
