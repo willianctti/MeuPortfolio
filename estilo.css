@@ -89,4 +89,78 @@ header {
     font-size: 3em;
     color: white;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 0px yellow;
+}
+
+.sec p {
+    padding-top: 60px;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 50px;
+    text-indent: 100px;
+    text-align: justify;
+    padding-bottom: 100px;
+}
+
+#javascript {
+    position: absolute;
+    top: 6%;
+    transform: rotate(-20deg);
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(209, 209, 209, 0.537);
+}
+
+#principal h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+div#cartas {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.face {
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    
+    
+}
+
+div#login {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 20%;
+    transform-style: preserve-3d;
+}
+
+div#calc {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 70%;
+    transform-style: preserve-3d;
+}
+
+div#netflix {
+    position: absolute;
+    left: 45%;
+    transform-style: preserve-3d;
+}
+
+#front {
+   position: absolute;
+
+}
+.flip {
+    transform: rotateY(180deg);
 }
