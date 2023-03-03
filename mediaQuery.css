@@ -93,6 +93,7 @@ header {
 }
 
 .sec p {
+    max-width: 600px;
     padding-top: 60px;
     font-weight: bold;
     font-size: 1.5em;
@@ -105,6 +106,7 @@ header {
 #javascript {
     display: block;
     position: absolute;
+    left: 1%;
     top: 6%;
     transform: rotate(-20deg);
     width: 150px;

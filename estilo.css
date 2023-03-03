@@ -7,8 +7,8 @@
 
 body {
     background-color: black;
-    min-height: 100vh;
-    overflow-x: hidden;
+    min-height: 100%;
+    overflow-x: hidden; 
 }
 
 header {
@@ -93,14 +93,21 @@ header {
     text-shadow: 2px 2px 0px yellow;
 }
 
+div#p {
+    display: flex;
+    justify-content: center;
+
+}
+
 .sec p {
     padding-top: 60px;
-    min-width: 300px;
+    max-width: 300px;
     font-weight: bold;
     font-size: 1.5em;
     line-height: 28px;
     text-indent: 20px;
     text-align: justify;
+    justify-content: center;
     padding-bottom: 10px;
 }
 
