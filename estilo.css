@@ -69,6 +69,10 @@ header {
     
 }
 
+#hill4, #hill5 {
+    display: block;
+}
+
 .parallax img {
     position: absolute;
     top: 0;
