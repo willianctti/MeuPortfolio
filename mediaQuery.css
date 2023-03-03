@@ -1,4 +1,4 @@
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 799px) {
 * {
     margin: 0;
     padding: 0;
@@ -56,7 +56,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 #text {
@@ -72,6 +72,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    height: 90%;
     pointer-events: none;
 }
 
@@ -160,7 +161,7 @@ a.aCards {
     text-align: center;
     font-size: 1.4em;
     color: white;
-    box-shadow: 5px 5px 23px rgba(255, 255, 255, 0.448);
+    box-shadow: 10px 10px 15px rgba(251, 231, 116, 0.167);
     text-shadow: 1px 1px 0px black;
     transition: 0.3s ease;
 }
@@ -189,7 +190,7 @@ div.cards:hover {
 .cards a {
     font-weight: bold;
     color: rgba(236, 236, 15, 0.75);
-    text-shadow: 1px 1px 1px rgb(232, 232, 227);
+    text-shadow: 1px 1px 1px rgb(246, 246, 37);
 }
 
 section#last h2 {
@@ -209,6 +210,11 @@ div#rs img {
     width: 150px;
     height: 150px;
     margin: 20px;
+    transition: 0.1s ease-in;
+}
+div#rs img:hover {
+    width: 160px;
+    height: 160px;
 }
 
 h5 {
