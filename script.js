@@ -15,8 +15,16 @@ window.addEventListener('scroll', () => {
     
     if (value > 200 ) {
         text.style.display = "none";
+        leaf.style.display = "none";
+        hill1.style.display = "none";
+        hill4.style.display = "none";
+        hill5.style.display = "none";
     } else {
         text.style.display = "block";
+        leaf.style.display = "block";
+        hill1.style.display = "block";
+        hill4.style.display = "block";
+        hill5.style.display = "block";
     }
 })
 
