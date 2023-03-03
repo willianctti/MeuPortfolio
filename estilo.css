@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden; 
 }
 
 body {
@@ -100,6 +101,7 @@ header {
 div#p {
     display: flex;
     justify-content: center;
+    overflow-x: hidden; 
 
 }
 
@@ -113,6 +115,7 @@ div#p {
     text-align: justify;
     justify-content: center;
     padding-bottom: 10px;
+    overflow-x: hidden; 
 }
 
 #javascript {
@@ -133,6 +136,7 @@ h2#projetos {
     font-size: 2.5em;
     padding-top: 30px;
     padding-bottom: 30px;
+    overflow-x: hidden; 
 }
 
 h3 {
@@ -140,12 +144,14 @@ h3 {
     font-size: 1.5em;
     font-weight: bold;
     padding-bottom: 40%;
+    overflow-x: hidden; 
 }
 
 a.aCards {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    overflow-x: hidden; 
     
 }
 
