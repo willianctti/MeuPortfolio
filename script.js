@@ -16,8 +16,6 @@ window.addEventListener('scroll', () => {
         hill5.style.display = "none";
     } else {
         text.style.display = "block";
-        leaf.style.display = "block";
-        hill1.style.display = "block";
         hill4.style.display = "block";
         hill5.style.display = "block";
     }
